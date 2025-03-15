@@ -27,7 +27,8 @@ matriz_3d = [
 ciudades = ["Ciudad 1", "Ciudad 2"]
 dias_semana = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
 num_semanas = len(matriz_3d[0][0])  # Número de semanas
-
+def calcular_promedio_temperaturas(matriz_3d, ciudades):
+        num_semanas = len(matriz_3d[0][0])  # Número de semanas
 # Calcular el promedio de temperaturas por ciudad y semana
 for ciudad_idx in range(len(matriz_3d)):  # Recorrer ciudades
     for semana in range(num_semanas):  # Recorrer semanas
